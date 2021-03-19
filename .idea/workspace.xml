@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9790b1ed-6c27-4d7c-8223-1e05fad5a498" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1dAchkfOcMiSQ1qhOlsriIIjHsT" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="RELAX-NG" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../galaxy-wallet" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Test_Run1 in Project/test">
+    <configuration name="Test_Run1 in Project/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="Project/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Run1$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Run3 in Project/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="Project/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Run3$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Run4 in Project/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="Project/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Run4$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Run5 in Project/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="Project/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Run5$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Run6 in Project/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="Project/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_Run6$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_Run1 in Project/test" />
+        <item itemvalue="Go Test.Test_Run6 in Project/test" />
+        <item itemvalue="Go Test.Test_Run5 in Project/test" />
+        <item itemvalue="Go Test.Test_Run4 in Project/test" />
+        <item itemvalue="Go Test.Test_Run3 in Project/test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9790b1ed-6c27-4d7c-8223-1e05fad5a498" name="Default Changelist" comment="" />
+      <created>1591871459886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591871459886</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn,direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="535" height="466" key="DebuggerActiveHint" timestamp="1612758455217">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="535" height="466" key="DebuggerActiveHint/67.27.1851.899@67.27.1851.899" timestamp="1612758455217" />
+    <state width="1805" height="216" key="GridCell.Tab.0.bottom" timestamp="1616050442066">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1805" height="216" key="GridCell.Tab.0.bottom/67.27.1851.899@67.27.1851.899" timestamp="1616050442066" />
+    <state width="1805" height="216" key="GridCell.Tab.0.center" timestamp="1616050442064">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1805" height="216" key="GridCell.Tab.0.center/67.27.1851.899@67.27.1851.899" timestamp="1616050442064" />
+    <state width="1805" height="216" key="GridCell.Tab.0.left" timestamp="1616050442063">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1805" height="216" key="GridCell.Tab.0.left/67.27.1851.899@67.27.1851.899" timestamp="1616050442063" />
+    <state width="1805" height="216" key="GridCell.Tab.0.right" timestamp="1616050442065">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1805" height="216" key="GridCell.Tab.0.right/67.27.1851.899@67.27.1851.899" timestamp="1616050442065" />
+    <state width="1805" height="169" key="GridCell.Tab.1.bottom" timestamp="1615361422062">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1805" height="169" key="GridCell.Tab.1.bottom/67.27.1851.899@67.27.1851.899" timestamp="1615361422062" />
+    <state width="1805" height="169" key="GridCell.Tab.1.center" timestamp="1615361422060">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1805" height="169" key="GridCell.Tab.1.center/67.27.1851.899@67.27.1851.899" timestamp="1615361422060" />
+    <state width="1805" height="169" key="GridCell.Tab.1.left" timestamp="1615361422060">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1805" height="169" key="GridCell.Tab.1.left/67.27.1851.899@67.27.1851.899" timestamp="1615361422060" />
+    <state width="1805" height="169" key="GridCell.Tab.1.right" timestamp="1615361422061">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state width="1805" height="169" key="GridCell.Tab.1.right/67.27.1851.899@67.27.1851.899" timestamp="1615361422061" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/service/contract/api.go</url>
+          <line>89</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/service/contract/api.go</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/service/contract/api.go</url>
+          <line>49</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/reverse_test.go</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/closures_test.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/closures_test.go</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/closures_test.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/array_test.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/chan_test.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/array_test.go</url>
+          <line>114</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/array_test.go</url>
+          <line>90</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/array_test.go</url>
+          <line>138</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/reflect_test.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

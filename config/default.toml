@@ -1,0 +1,191 @@
+[server]
+dev = "Test"
+version = "2.0"
+captcha_max_age = 900 # 验证码期限，单位秒
+token_max_age = 604800 # token期限，单位秒
+token_secret = "Jxa26iOirBiYX8iLCJuYm5iy"
+dfuse_api_key = "server_7db2a44b4a5c21f03a560932f9f50d34"
+max_multipart_memory = 3 # 上传的图片最大允许的大小，单位MB
+pass_privatekey = "MIICXgIBAAKBgQC+04vTPkJ9lBHatOD+yPc59FB99JnQYZ5kqFLsyz21hgGvKVLyaByFrSOzT5jSO3x5iEkRxV8vD2fcjm/O1W3mVi6dDEXWM5xVTcr4SI28yh02CKgRDBH2kaQKcn8X9phphoWEge8ySyjBXWX9m6oyX7qXSt1jGbPi8t97YBwqjwIDAQABAoGBAK6fX2DbpHTOPtholUwSE0qRa+cXInoyGoP6FIhkJAAstPXZVvJEm3UoT3cS68HWdb2xHUyJ1OR3sI+AOIiJfpqono37WghIEz5iZNL5k/IymFXDqIsuLdOed6/s7ryL1wZtgbnQTxuiIfi96jsYO28nzZo6kRh5svZFgvp43dsBAkEA5GSgJCAhrY8KeAeQvl8YlDSKHkf/3l9jEImxOtrSs4E7LrchtdSPXvl3VCzXmzuw6I6Wz8jjeJBbGa68ZZoOLwJBANXkdaaHhv5g/66763/W7hTo7RblZAwSxFqEZ+p8s8rRkzwX6YZILLoHmHF34Ff/JccpzsI7o0CVicI8nOpR8aECQD3gEQ6YcedOWFy6V/lrVAJa1YxsnyJEn1cMpqo2PF0LRthaHtTfGFR3q19vop3Ypw3qC2uRlibEnRmxIDM6cFsCQQC8WqMAMvi9qc1+oh2QRkUCRNwD/Z1MxHoE+/RGmen6APQXRzdt+MDqUSX9RgNZemZaLIbWpI3uocDeO2IzNlYBAkEAhzW4rEh28plqE2BzVNt0bFsUT83A61dOJi/sWJpQFRS16VigmAJRMuSE0BPYpOiJYMnSLA28X6RxnFPqsQjWVQ==" # 用户密码加密私钥
+pass_salt = "xrjoN1qR" # 用户密码加盐
+order_prefix = "galaxy_" # 订单前缀
+api_prefix = "/api"
+img_host = "https://otest.galaxycoin.vip" # 图片服务器域名
+upload_img_dir = "/galaxy/img/upload" # 保存图片路径
+img_path = "/galaxy/upload"  # 上传后的图片请求地址前缀
+
+[port]
+base_service = 9090
+user_service = 9091
+account_service = 9092
+captcha_service = 9093
+discover_service = 9095
+financial_service = 9197
+push_service = 8027
+private_wallet_service = 9001
+ethereum_wallet_service = 9002
+multi_wallet_service = 9003
+eos_wallet_service = 9004
+bts_wallet_service = 9005
+
+[grpc]
+ip = "127.0.0.1"
+
+[grpc_port]
+account_service = 19092
+base_service = 19090
+captcha_service = 19093
+user_service = 19091
+push_service = 18027
+private_wallet_service = 19001
+ethereum_wallet_service = 19002
+multi_wallet_service = 19003
+eos_wallet_service = 19012
+bts_wallet_service = 19012
+#discover_service = 19095
+financial_service = 19197
+[elastic]
+urls = ["http://elastic1:19200"]
+
+[luosimao]
+api = "https://captcha.luosimao.com/api/site_verify" # 螺丝帽验证地址
+api_key = "" # 螺丝帽api_key
+# api_key = "5855ac10e7d96b4a0b967c3d09750741"
+
+[mail]
+user = "Galaxy" # 域名邮箱账号
+password = "Aa123123" # 域名邮箱密码
+host = "service.shuojianghu.com" # smtp邮箱域名
+port = 25 # smtp邮箱端口
+from = "galaxy wallet" # 邮件来源
+
+[sms]
+type="yzx" #yzx: 云之讯,
+
+[mobile_captcha_content]
+cn = "您的短信验证码为：%s。工作人员不会向您索取验证码。若非您本人操作，请及时修改密码。"
+en = "Hi! please use the following code to confirm your identity: %s"
+ja = "对不起，我不会日语，您的短信验证码为：%s"
+
+[email_captcha_content]
+cn = "您的邮箱验证码为：%s。工作人员不会向您索取验证码。若非您本人操作，请及时修改密码。"
+en = "Hi! please use the following code to confirm your identity: %s"
+ja = "对不起，我不会日语，您的短信验证码为：%s"
+
+[hxd]
+#api = "http://www.hxdsms.com/user/index/send_msg" # 恒信达短信请求API
+#user = "GalaxyOTC" # 恒信达用户名
+#password = "123456" # 恒信达密码
+api = "http://intapi.253.com/send" # 253短信请求API
+user = "I4795298" # 253用户名
+password = "omzyv3cjW" # 253密码
+
+
+[db]
+dialect = "mysql"
+max_idle = 5
+max_open = 10
+max_lifetime = 50
+#gc_dsn = "test:123456@tcp(192.168.0.210:13336)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[redis]
+max_idle = 3
+max_active = 5
+#url = "redis_cluster1:16379"
+password = ""
+url = "192.168.0.219:6379"
+#password = ""
+data_base = 6
+
+[user_service]
+api_prefix = "/v1/user"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[account_service]
+api_prefix = "/v1/account"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[base_service]
+api_prefix = "/v1/base"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[captcha_service]
+api_prefix = "/v1/captcha"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[discover_service]
+api_prefix = "/v1/discover"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[financial_service]
+api_prefix = "/v1/financial"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[im_service]
+api_prefix = "/v1/im"
+app_key = "9deb4930222eab298664247de975d152"
+app_secret = "3dfe68e55762"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[otc_service]
+api_prefix = "/v1/otc"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[push_service]
+api_prefix = "/v1/push"
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[private_wallet_service]
+cockroach_url = "postgresql://galaxywallet@127.0.0.1:26257/private_wallet?sslmode=disable"
+url = "wss://api.galaxycoin.vip/ws"
+owner_address = "0x32ab702c930ceA154b2e3E4C08007723aA6f4bcC"
+escrow_address = "0x3a534510b6fdc99f710bcc57d489585e823cea5c"
+registry = "0x5e360706996ee0c7c433c9a7eb9d1714c92f09fb"
+
+[eos_wallet_service]
+nodes = ["https://api.eosbeijing.one", "https://eosbp.atticlab.net"]
+third_api = "https://open-api.eos.blockdog.com/v2/third"
+third_apikeys = ["3778e9dc-2419-4658-8034-fb61f2eba1f4", "056704f8-a5de-4860-8a83-bbec32305afc"]
+#websocket_api = "wss://ws.eospark.com/v1/ws"
+websocket_api = "wss://open-api.eos.blockdog.com/v1/ws"
+websocket_apikeys = ["3778e9dc-2419-4658-8034-fb61f2eba1f4", "056704f8-a5de-4860-8a83-bbec32305afc"]
+
+[bts_wallet_service]
+nodes = ["wss://api.bts.ai/ws", "wss://bit.btsabc.org/ws"]
+asset_names = ["BTS", "GAT"]
+
+[ethereum_wallet_service]
+test_net = false
+api_prefix = "/v1/ethereum"
+#url = "wss://mainnet.infura.io/ws/LDWztu8dxaR6sRgb4rsN"
+#url = "ws://mainnet-eth.galaxywallet.io:8546/ws"
+url = "ws://120.77.219.29:8546"
+#url = "ws://192.168.0.223:18546"
+cockroach_url = "postgresql://galaxywallet@127.0.0.1:26257/ethereum_wallet?sslmode=disable"
+etherscan_api = "https://api.etherscan.io/api"
+etherscan_apikey = "1TPR2KHZKBC5M9MKEN3B38H379XVBHXRM7"
+contract_address_list = ["0x486A72811ae65C4C814Ba929d6da35497d21296f", "0xdac17f958d2ee523a2206206994597c13d831ec7"]
+escrow_address = "0x7bd0a2d803cdc820d7ae188e15b7353aeed78f60"
+registry = "0x11b910c5db290c72831d404c6e39a9525ff1fae1"
+
+[multi_wallet_service]
+test_net = false
+[multi_wallet_service.cockroach]
+bitcoin = "postgresql://galaxywallet@127.0.0.1:26257/bitcoin_wallet?sslmode=disable"
+bitcoin_cold = "postgresql://galaxywallet@127.0.0.1:26257/bitcoin_cold_wallet?sslmode=disable"
+omni = "postgresql://galaxywallet@127.0.0.1:26257/omni_wallet?sslmode=disable"
+omni_cold = "postgresql://galaxywallet@127.0.0.1:26257/omni_cold_wallet?sslmode=disable"
+
+[kline_service]
+api_prefix = "/v1/kline"
+dsn = "test:123456@tcp(192.168.0.210:3306)/kline?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+#dsn = "root:mysql@tcp(127.0.0.1:3306)/kline?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[eospark]
+api = "https://api.eospark.com/api"
+wsapi = "wss://ws.eospark.com/v1/ws"
+apikeys = ["3f6a08a55e1b096ce114a3a895e1f2ef", "2a30e3ed2e35a4ddd53590068b739b5e"]
+
+[contract]
+url = "https://otest.galaxycoin.vip/api/v2/contract/private"
+salt = "T7ZfbOyyWov1mkRW"

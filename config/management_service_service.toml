@@ -1,0 +1,83 @@
+[server]
+img_host = "http://192.168.0.154" # 图片服务器域名
+upload_img_dir = "/galaxy/static" # 保存图片路径
+img_path = "/galaxy/img"    # 上传后的图片请求地址前缀
+token_max_age = 86400 # token期限，单位秒
+token_secret = "Jxa26iOirBiYX8iLCJuYm5iy"
+pass_salt = "xrjoN1qR" # 用户密码加盐
+
+[admin_service]
+dev = true
+name = "admin_service"
+version = "2.0"
+max_multipart_memory = 3 # 上传的图片最大允许的大小，单位MB
+api_prefix = "/api/v1"
+port = 6090
+rpc_port = ":19001"
+
+[grpc_port]
+private_wallet_service = 19001
+ethereum_wallet_service = 19002
+multi_wallet_service = 19003
+eos_wallet_service = 19004
+exchangerate_service = 19005
+user_service=19091
+base_service=19090
+push_service = 18027
+
+[nats]
+url = "nats://192.168.0.231:4222"
+
+[luosimao]
+api = "https://captcha.luosimao.com/api/site_verify" # 螺丝帽验证地址
+api_key = "" # 螺丝帽api_key
+# api_key = "5855ac10e7d96b4a0b967c3d09750741"
+
+[hxd]
+api = "http://intapi.253.com/send" # 253短信请求API
+user = "I4795298" # 253用户名
+password = "omzyv3cjW" # 253密码
+
+[db]
+dialect = "mysql"
+max_idle = 5
+max_open = 10
+max_lifetime=60
+
+[redis]
+max_idle = 3
+max_active = 5
+url = "192.168.0.219:6379"
+password = ""
+data_base = 6
+
+[mongo]
+url = "192.168.0.223.27017"
+data_base = ""
+
+[admin]
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_admin?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[user]
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[base]
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[account]
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[otc]
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[operate]
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[financial]
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[report]
+dsn = "test:123456@tcp(192.168.0.210:3306)/galaxy_coin_v2?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"
+
+[contract]
+dsn = "test:123456@tcp(192.168.0.210:3306)/contract?sql_notes=false&parseTime=true&loc=Local&charset=utf8mb4,utf8"

@@ -1,0 +1,5 @@
+t=2020-06-12T02:55:35-0700 lvl=info msg=response method="contract server" data="&{Currency:USDT Balance:156.69}"
+t=2020-06-12T03:11:27-0700 lvl=info msg=response method="contract server" data="&{Currency:USDT Balance:156.69}"
+t=2020-06-12T03:30:50-0700 lvl=info msg=response method="contract server" data="&{Currency:USDT Balance:156.69}"
+t=2020-06-12T03:31:35-0700 lvl=info msg=response method="contract server" data="&{Currency:USDT Balance:156.69}"
+t=2020-06-14T19:28:13-0700 lvl=info msg=response method="contract server" data="&{Currency:USDT Balance:156.69}"

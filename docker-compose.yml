@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  contract:
+    image: registry.cn-shenzhen.aliyuncs.com/owen_app/contract:v1.1
+    container_name: contract
+    ports:
+      - 8080:8080
+    volumes:
+      - ./logs/contract:/galaxy/logs
+      - ./config:/galaxy/config
