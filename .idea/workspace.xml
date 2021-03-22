@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9790b1ed-6c27-4d7c-8223-1e05fad5a498" name="Default Changelist" comment="" />
+    <list default="true" id="9790b1ed-6c27-4d7c-8223-1e05fad5a498" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/test/reflect_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/reflect_test.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +18,14 @@
     </option>
   </component>
   <component name="GOROOT" path="$USER_HOME$/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1dAchkfOcMiSQ1qhOlsriIIjHsT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />

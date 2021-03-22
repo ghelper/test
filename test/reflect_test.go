@@ -35,3 +35,8 @@ func A() *User {
 	user := User{ID: 1, Address: "123"}
 	return &user
 }
+
+func B() *User {
+	user := User{ID: 1, Address: "123"}
+	return &user
+}
